@@ -19,6 +19,7 @@
 		<param name="outputDirectory" value="./output" />
 		<param name="firstIteration" value="0" />
 		<param name="lastIteration" value="2" />
+		<param name="overwriteFiles" value="deleteDirectoryIfExists"/>
 	</module>
 
 	<module name="qsim">

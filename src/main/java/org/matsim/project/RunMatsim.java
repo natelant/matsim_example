@@ -58,7 +58,7 @@ public class RunMatsim{
 		
 		// possibly modify scenario here
 		Id<Person> interestingPersonId = Id.createPersonId(1);
-		List<Id<Person>> personsToRemove = new ArrayList<>();
+		List<Id<Person>> personsToRemove = new ArrayList<>(); // this is how to add items to a map -nate
 
 		for (Id<Person> personId : scenario.getPopulation().getPersons().keySet()) {
 			if(!personId.equals(interestingPersonId)) {
@@ -102,7 +102,7 @@ public class RunMatsim{
 		
 		// possibly modify controler here
 
-		controler.addOverridingModule( new OTFVisLiveModule() ) ;
+		// controler.addOverridingModule( new OTFVisLiveModule() ) ;
 
 
 		

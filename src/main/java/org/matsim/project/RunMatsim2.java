@@ -102,7 +102,7 @@ public class RunMatsim2 {
 		
 		// possibly modify controler here
 
-		controler.addOverridingModule( new OTFVisLiveModule() ) ;
+		// controler.addOverridingModule( new OTFVisLiveModule() ) ;
 
 
 		
